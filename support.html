@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Softtek App Store - Materialize store</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="blue lighten-2" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img class="hide-on-small-only" src="assets/logo/softtek-logo.png"><img class="hide-on-med-and-up responsive-img sm-logo" src="assets/logo/softtek-logo-sm-onlydec.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="store.html">Aplicaciones</a></li>
+        <li><a href="support.html">Soporte</a></li>
+        <li><a href="#">Foro</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="store.html">Aplicaciones</a></li>
+        <li><a href="support.html">Soporte</a></li>
+        <li><a href="#">Foro</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+  <a class="btn-floating btn-large red">
+    <i class="material-icons">add_circle_outline</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating orange"><i class="material-icons">live_help</i></a></li>
+    <li><a class="btn-floating yellow darken-1"><i class="material-icons">store</i></a></li>
+    <li><a class="btn-floating green"><i class="material-icons">forum</i></a></li>
+  </ul>
+</div>
+
+<footer class="page-footer blue">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Company Bio</h5>
+        <p class="grey-text text-lighten-4">(Placeholder)</p>
+
+
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Configuracion</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Link 1</a></li>
+          <li><a class="white-text" href="#!">Link 2</a></li>
+          <li><a class="white-text" href="#!">Link 3</a></li>
+          <li><a class="white-text" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Contactenos</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Soporte</a></li>
+          <li><a class="white-text" href="#!">Facebook</a></li>
+          <li><a class="white-text" href="#!">Twitter</a></li>
+          <li><a class="white-text" href="#!">Linkedin</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      Made by <a class="black-text text-lighten-1" href="#">Sephiroath&copy;</a>
+    </div>
+  </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.modal-trigger').leanModal();
+  });
+</script>
+
+</body>
+</html>
